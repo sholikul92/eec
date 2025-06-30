@@ -11,7 +11,7 @@ export default function CTASection() {
           Mulai transformasi ruang belajar Anda hari ini
         </p>
         <div className='flex gap-8'>
-          <Link href='#produk' aria-label='tombol lihat produk' target='_blank'>
+          <Link href='#produk' aria-label='tombol lihat produk'>
             <button className='bg-primary px-4 py-2 rounded-xl cursor-pointer'>
               Lihat Produk
             </button>
