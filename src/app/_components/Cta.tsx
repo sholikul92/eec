@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function CTASection() {
   return (
     <section className='h-80 bg-[url(/banner.webp)] bg-cover bg-no-repeat bg-fixed'>
-      <div className='h-full bg-black/50 flex flex-col text-center justify-center items-center text-white space-y-4'>
+      <div className='h-full bg-black/50 flex flex-col text-center justify-center items-center text-white space-y-4 px-2'>
         <h1 className='text-4xl font-semibold'>
           Wujudkan Kelas Nyaman dengan Bangku Berkualitas
         </h1>

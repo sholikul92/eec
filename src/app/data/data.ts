@@ -59,7 +59,7 @@ export const productAdvantages = [
     id: 2,
     title: 'Desain Ergonomis & Stabil',
     desc: 'Duduk jadi lebih nyaman.',
-    imageUrl: '/product_advantage/pa-3.png',
+    imageUrl: '/product_advantage/pa-3.jpg',
   },
   {
     id: 3,
