@@ -5,7 +5,7 @@ export default function WaToggle() {
   return (
     <div className='bg-green-700 p-2 rounded-full fixed bottom-5 right-5'>
       <Link
-        href='https://wa.me/6287886758088'
+        href='https://wa.me/6287886758088?text=Halo saya mendapatkan ini dari website. Dapatkah anda memberikan daftar produk kepada saya?'
         target='_blank'
         aria-label='tombol wa'
       >

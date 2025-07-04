@@ -26,7 +26,11 @@ export default function ContactDropdown({ className }: { className?: string }) {
       <DropdownMenu aria-label='Dynamic Actions' items={WhatsApps}>
         {(item) => (
           <DropdownItem key={item.key}>
-            <Link href={`https://wa.me/${item.key}`} aria-label='wa'>
+            <Link
+              href={`https://wa.me/${item.key}?text=Halo saya mendapatkan ini dari website. Dapatkah anda memberikan daftar produk kepada saya?`}
+              aria-label='wa'
+              target='_blank'
+            >
               {item.label}
             </Link>
           </DropdownItem>

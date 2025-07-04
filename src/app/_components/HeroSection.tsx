@@ -22,7 +22,7 @@ export default function HeroSection() {
               </Button>
             </Link>
             <Link
-              href='https://wa.me/6287886758088'
+              href='https://wa.me/6287886758088?text=Halo saya mendapatkan ini dari website. Dapatkah anda memberikan daftar produk kepada saya?'
               aria-label='link-whatsapp'
               target='_blank'
             >

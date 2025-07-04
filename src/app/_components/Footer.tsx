@@ -65,7 +65,13 @@ export default function Footer() {
               {WhatsApps.map((wa) => (
                 <li key={`cs-${wa.key}`} className='flex gap-1 items-center'>
                   <FaWhatsapp />
-                  <Link href={`https://wa.me/${wa.key}`}>{wa.label}</Link>
+                  <Link
+                    href={`https://wa.me/${wa.key}?text=Halo saya mendapatkan ini dari website. Dapatkah anda memberikan daftar produk kepada saya?`}
+                    target='_blank'
+                    aria-label='wa cs'
+                  >
+                    {wa.label}
+                  </Link>
                 </li>
               ))}
             </ul>

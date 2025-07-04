@@ -35,7 +35,7 @@ export default function ProductSection() {
                 alt={product.title}
                 width={300}
                 height={300}
-                priority
+                loading='lazy'
               />
               <h2 className='font-semibold'>{product.title}</h2>
               <div
@@ -46,7 +46,7 @@ export default function ProductSection() {
                 }`}
               >
                 <Link
-                  href='https://wa.me/6287886758088'
+                  href={`https://wa.me/6287886758088?text=Halo saya mendapatkan ini dari website. Saya ingin mengetahui lebih lanjut tentang produk "${product.title}".`}
                   target='_blank'
                   aria-label='link hubungi cs'
                 >
