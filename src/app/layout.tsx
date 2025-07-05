@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'EEC INDONESIA',
   description: 'Penyedia furniture sekolah berkualitas',
+  verification: {
+    google: 'yMwRIf29psN9fH8AvM_49JhFKXz7VIJ-1X0R-FjapN4',
+  },
 };
 
 export default function RootLayout({
